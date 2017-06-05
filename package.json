@@ -1,0 +1,26 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chiddu/todolist.git"
+  },
+  "author": "Chiddu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiddu/todolist/issues"
+  },
+  "homepage": "https://github.com/chiddu/todolist#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongoose": "^4.10.4"
+  }
+}
