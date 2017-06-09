@@ -1,8 +1,8 @@
 'use strict';
 
 
-var mongoose = require('mongoose'),
-  Task = mongoose.model('Tasks');
+var dynamoose = require('dynamoose'),
+  Task = dynamoose.model('Tasks');
 
 exports.list_all_tasks = function(req, res) {
   Task.find({}, function(err, task) {
