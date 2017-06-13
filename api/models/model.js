@@ -1,6 +1,6 @@
 'use strict';
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+var dynamoose = require('dynamoose');
+var Schema = dynamoose.Schema;
 
 
 var TaskSchema = new Schema({
@@ -21,4 +21,4 @@ var TaskSchema = new Schema({
   }
 });
 
-module.exports = mongoose.model('Tasks', TaskSchema);
+module.exports = dynamoose.model('Tasks', TaskSchema);
