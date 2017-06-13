@@ -1,4 +1,5 @@
 'use strict';
+/*
 var dynamoose = require('dynamoose');
 
 
@@ -20,3 +21,4 @@ var TaskSchema = { name: String, Created_date: : Date  , type : String }
 
 module.exports = dynamoose.model('Tasks', TaskSchema);
 
+*/
