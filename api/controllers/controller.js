@@ -2,7 +2,7 @@
 
 
 var dynamoose = require('dynamoose'),
-  Task = dynamoose.model('Tasks');
+Task = dynamoose.model('Tasks');
 
 exports.list_all_tasks = function(req, res) {
   Task.find({}, function(err, task) {
