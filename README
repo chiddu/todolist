@@ -1,0 +1,4 @@
+This is a sample project that I have created to try and migrate a simple express project to lambda.
+Rather than try to migrate db, api or rules directly and debug those.
+Simply create a dummy express project with a folder structure and fix it in lambda
+Once this is done and tested, this repo will be deleted
